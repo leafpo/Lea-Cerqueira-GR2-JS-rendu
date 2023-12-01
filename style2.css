@@ -1,0 +1,19 @@
+body.page2 {
+    background-color: bisque;
+  }
+
+h2 {
+    font-family: "Rubik", sans-serif;
+    margin-top: 0px;
+    color: rgb(75, 112, 148);
+    text-align: right;
+    font-size: 250px;
+  }
+
+.container {
+    text-align: left;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 500px;
+  }

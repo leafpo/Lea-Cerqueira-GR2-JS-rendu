@@ -5,6 +5,7 @@ body.page1 {
   background: url("Chateau.jpg") no-repeat center center fixed;
   background-size: cover;
   font-size: 250px;
+  overflow: scroll;
 }
 
 h1 {
@@ -23,17 +24,17 @@ p {
 }
 
 .container {
-  opacity: 0.8;
   text-align: left;
   position: fixed;
-  top: -250px;
-  left: -150px;
+  left: 0;
+  top: 0;
+  width: 500px;
 }
 .Lien2 {
   opacity: 0.8;
   position: fixed;
   top: 980px;
-  right: 300px;
+  right: 100px;
 }
 body.page2 {
   background-color: bisque;
@@ -59,19 +60,60 @@ h2 {
   border-radius: 7px;
   position: fixed;
   top: 300px;
-  right: 1250px;
+  right: 1275px;
+}
+
+.totoro {
+  background-color: #d8b0b0;
+  padding: 10px;
+  border-radius: 7px;
+  position: fixed;
+  top: 300px;
+  right: 100px;
+}
+.letombeaudeslucioles {
+  background-color: #d8b0b0;
+  padding: 10px;
+  border-radius: 7px;
+  position: fixed;
+  top: 1500px;
+  left: 120px;
 }
 
 .main {
   flex-direction: column;
-  display: flex;
   flex-wrap: wrap;
 }
 
-.clickable-image {
-  width: 200px;
-  height: 300px;
+.clickable-image1 {
+  height: 200px;
 }
-#nausicaa_de_la_vallee_du_vent img #le_chateau_dans_le_ciel img {
+
+.clickable-image2 {
+  height: 250px;
+}
+#nausicaa_de_la_vallee_du_vent
+  img
+  #le_chateau_dans_le_ciel
+  img
+  #totoro
+  img
+  #le_tombeau_des_lucioles
+  img {
   width: 500px;
+}
+
+.clickable-image3 {
+  height: 800px;
+}
+
+.clickable-image4 {
+  height: 800px;
+}
+
+.clickable-image5 {
+  height: 800px;
+}
+.clickable-image6 {
+  height: 800px;
 }
