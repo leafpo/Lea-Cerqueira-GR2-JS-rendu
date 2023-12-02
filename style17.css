@@ -3,9 +3,22 @@ body.page2 {
   background: url("/Fond/fond\ ambulant.jpg") no-repeat center center fixed;
   background-size: cover;
 }
-.main {
-  flex-direction: column;
-  flex-wrap: wrap;
+p{
+  border-style: outset;
+  border-width: 8px;
+  border-color: rgb(156, 108, 71);
+  background-color: rgb(216, 203, 185);
+  opacity: 0.8;
+  padding: 25px;
+  margin: 5%;
+  font-family: "Oswald", sans-serif;
+  color: rgb(77, 57, 43);
+  margin-bottom: 5px;
+  font-size: 20px;
+  text-align: right;
+  bottom: 2000px;
+  display: flex;
+
 }
 h2 {
   font-family: "Rubik", sans-serif;

@@ -9,9 +9,28 @@ body.page2 {
 }
 h2 {
   font-family: "Rubik", sans-serif;
-  margin: 20px;
-  color: rgb(255, 255, 255);
-  font-size: 48px;
+  margin: 25px;
+  color: rgb(39, 77, 49);
+  font-size: 45px;
+}
+p{
+  border-style: outset;
+  border-width: 8px;
+  border-color: rgb(32, 71, 31);
+  background-color: rgb(133, 179, 152);
+  opacity: 0.8;
+  padding: 25px;
+  margin: 20%;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  color: rgb(27, 63, 29);
+  margin-bottom: 5px;
+  font-size: 15px;
+  position: relative;
+  right: -500px;
+  bottom: 50px;
+  display: flex;
+
 }
 .container3 {
   margin-top: 20px;

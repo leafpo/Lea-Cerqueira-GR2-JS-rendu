@@ -13,6 +13,25 @@ h2 {
   color: rgb(125, 134, 165);
   font-size: 150px;
 }
+p{
+  border-style: outset;
+  border-width: 8px;
+  border-color: rgb(71, 111, 156);
+  background-color: rgb(133, 164, 179);
+  opacity: 0.8;
+  padding: 25px;
+  margin: 10%;
+  font-family: "Oswald", sans-serif;
+  color: rgb(27, 31, 63);
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  position: relative;
+  left: -885px;
+  bottom: -50px;
+  display: flex;
+
+}
 .container2 {
   margin-top: 20px;
   text-align: left;
