@@ -1,19 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Rubik:ital@1&display=swap");
 body.page2 {
-    background-color: bisque;
-  }
-
+  background: url("kodama\ 2.webp") no-repeat center center fixed;
+  background-size: cover;
+}
+.main {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 h2 {
-    font-family: "Rubik", sans-serif;
-    margin-top: 0px;
-    color: rgb(75, 112, 148);
-    text-align: right;
-    font-size: 250px;
-  }
+  font-family: "Rubik", sans-serif;
+  margin: 20px;
+  color: rgb(145, 192, 186);
+  font-size: 250px;
+}
+.container2 {
+  margin-top: 20px;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.container2 img:hover {
+  transform: scale(1.1);
+}
+.main {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.clickable-image {
+  height: 200px;
+  width: 200px;
+}
+.affiche {
+  border: 10px solid rgb(170, 112, 126);
+  height: 500px;
+  width: 400px;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(209, 233, 254);
+}
 
-.container {
-    text-align: left;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 500px;
-  }
+.films {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.films img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: calc(20px - 0.5rem);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.5s;
+}
+
+.films img:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  border-radius: 20px;
+  padding: 0.5rem;
+  background-color: rgb(145, 192, 186);
+  margin: 1.2rem;
+}
