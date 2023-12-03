@@ -9,9 +9,9 @@ body.page2 {
 }
 h2 {
   font-family: "Rubik", sans-serif;
-  margin: 20px;
+  margin: 25px;
   color: rgb(109, 43, 43);
-  font-size: 90px;
+  font-size: 80px;
 }
 p{
   border-style: outset;
@@ -27,14 +27,13 @@ p{
   margin-bottom: 5px;
   font-size: 15px;
   position: relative;
-  left:-690px;
-  bottom: 150px;
+  left:-600px;
+  bottom:200px;
   display: flex;
-
 }
 .container2 {
   margin-top: 20px;
-  text-align: left;
+  text-align: right;
   width: 100%;
   display: flex;
   justify-content: space-between;

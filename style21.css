@@ -10,8 +10,26 @@ body.page2 {
 h2 {
   font-family: "Rubik", sans-serif;
   margin: 30px;
-  color: rgb(150, 136, 73);
-  font-size: 90px;
+  color: rgb(21, 59, 9);
+  font-size: 60px;
+}
+p{
+  border-style: outset;
+  border-width: 8px;
+  border-color: rgb(114, 101, 30);
+  background-color: rgb(236, 216, 172);
+  opacity: 0.8;
+  padding: 25px;
+  margin: 15%;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  color: rgb(53, 35, 8);
+  margin-bottom: 5px;
+  font-size: 15px;
+  position: relative;
+  left:400px;
+  bottom: 80px;
+  display: flex;
 }
 .container2 {
   margin-top: 0px;

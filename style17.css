@@ -6,19 +6,20 @@ body.page2 {
 p{
   border-style: outset;
   border-width: 8px;
-  border-color: rgb(156, 108, 71);
-  background-color: rgb(216, 203, 185);
+  border-color: rgb(82, 50, 24);
+  background-color: rgb(202, 155, 116);
   opacity: 0.8;
   padding: 25px;
-  margin: 5%;
+  margin: 15%;
   font-family: "Oswald", sans-serif;
-  color: rgb(77, 57, 43);
+  font-weight: 700;
+  color: rgb(53, 37, 8);
   margin-bottom: 5px;
-  font-size: 20px;
-  text-align: right;
-  bottom: 2000px;
+  font-size: 15px;
+  position: relative;
+  left: 420px;
+  bottom: 20px;
   display: flex;
-
 }
 h2 {
   font-family: "Rubik", sans-serif;

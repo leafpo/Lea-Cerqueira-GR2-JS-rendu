@@ -11,7 +11,25 @@ h2 {
   font-family: "Rubik", sans-serif;
   margin: 30px;
   color: rgb(53, 31, 20);
-  font-size: 105px;
+  font-size: 60px;
+}
+p{
+  border-style: outset;
+  border-width: 8px;
+  border-color: rgb(82, 37, 24);
+  background-color: rgb(202, 136, 116);
+  opacity: 0.8;
+  padding: 25px;
+  margin: 15%;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  color: rgb(53, 34, 8);
+  margin-bottom: 5px;
+  font-size: 15px;
+  position: relative;
+  left: -520px;
+  bottom: -80px;
+  display: flex;
 }
 .container2 {
   margin-top: 0px;

@@ -28,7 +28,7 @@ p{
   font-size: 15px;
   position: relative;
   right: -500px;
-  bottom: 50px;
+  bottom: 150px;
   display: flex;
 
 }
@@ -39,6 +39,6 @@ p{
   display: flex;
   justify-content: space-between;
 }
-.container2 img:hover {
+.container3 img:hover {
   transform: scale(1.1);
 }

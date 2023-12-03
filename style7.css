@@ -11,7 +11,7 @@ h2 {
   font-family: "Rubik", sans-serif;
   margin: 20px;
   color: rgb(43, 47, 109);
-  font-size: 90px;
+  font-size: 60px;
 }
 p{
   border-style: outset;
@@ -27,8 +27,8 @@ p{
   margin-bottom: 5px;
   font-size: 15px;
   position: relative;
-  left:-650px;
-  bottom: -90px;
+  left:-550px;
+  bottom: 20px;
   display: flex;
 
 }
