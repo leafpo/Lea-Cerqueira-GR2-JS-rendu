@@ -8,6 +8,10 @@
       href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.1/simple-lightbox.min.css"
+    />
     <title>Guide Ghibli</title>
   </head>
 
@@ -103,36 +107,37 @@
 
     <br />
     <br />
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.1/simple-lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/vanilla.filterizr.min.js"></script>
     <main class="portfolio">
       <div class="filters">
         <ul>
           <li data-filter="all" class="active">Croquis Ghibli</li>
-          <li data-filter="cd">Le voyage de Chihiro</li>
-          <li data-filter="cm">Ponyo sur la Falaise</li>
-          <li data-filter="cdi">Le chateau Ambulant</li>
-          <li data-filter="3d">Princesse Mononoke</li>
-          <li data-filter="jv">Le chateau dans le ciel</li>
+          <li data-filter="chihiro">Le voyage de Chihiro</li>
+          <li data-filter="ponyo">Ponyo sur la Falaise</li>
+          <li data-filter="howl">Le chateau Ambulant</li>
+          <li data-filter="san">Princesse Mononoke</li>
+          <li data-filter="laputa">Le chateau dans le ciel</li>
         </ul>
       </div>
       <div class="portfolio-elements">
-        <div class="card filtr-item" data-category="cd">
+        <div class="card filtr-item" data-category="chihiro">
           <div class="card-header">
             <p class="card-title">Chihiro dans le train</p>
             <div class="card-axe">Le Voyage de Chihiro</div>
           </div>
           <a href="chihirocroquis.jpg"
-            ><img src="chihirocroquis.jpg"/>
+            ><img src="chihirocroquis.jpg"alt="chihiro"/>
           </a>
         </div>
-        <div class="card filtr-item" data-category="3d">
+        <div class="card filtr-item" data-category="ponyo">
           <div class="card-header">
             <p class="card-title">Ponyo avec ses frères et soeurs</p>
             <div class="card-axe">Ponyo sur la Falaise</div>
           </div>
-          <a href="ponyocroquis.jpg"><img src="ponyocroquis.jpg" alt="Croquis" /> </a>
+          <a href="ponyocroquis.jpg"><img src="ponyocroquis.jpg" alt="Ponyo" /> </a>
         </div>
-        <div class="card filtr-item" data-category="jv">
+        <div class="card filtr-item" data-category="howl">
           <div class="card-header">
             <p class="card-title">Howl sur son lit</p>
             <div class="card-axe">Le chateau ambulant</div>
@@ -140,34 +145,37 @@
           <a href="howlcroquis.jpg"
             ><img
               src="howlcroquis.jpg"
-              alt=""
+              alt="Howl"
             />
           </a>
         </div>
-        <div class="card filtr-item" data-category="cdi">
+        <div class="card filtr-item" data-category="san">
           <div class="card-header">
             <p class="card-title">San, Moro et Ashitaka </p>
             <div class="card-axe">Princesse Mononoke</div>
           </div>
           <a href="mononokecroquis.jpg"
-            ><img src="mononokecroquis.jpg" alt="" />
+            ><img src="mononokecroquis.jpg" alt="san" />
           </a>
         </div>
-        <div class="card filtr-item" data-category="cm">
+        <div class="card filtr-item" data-category="laputa">
           <div class="card-header">
             <p class="card-title">Vue éloignée de Laputa</p>
             <div class="card-axe">Le Chateau dans le ciel</div>
           </div>
           <a href="laputacroquis.jpg"
-            ><img src="laputacroquis.jpg" alt="" />
+            ><img src="laputacroquis.jpg" alt="laputa" />
           </a>
         </div>
       </div>
+      <script src="lightbox.js"></script>
     </main>
     <div>
       <button id="toggleDarkMode">Activer le thème sombre</button>
     </div>
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script
     <script src="swiper.js"></script>
     <script src="burger.js"></script>
   </body>
