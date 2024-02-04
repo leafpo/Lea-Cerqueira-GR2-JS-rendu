@@ -133,3 +133,73 @@ body.dark * {
   font-family: "bahnschrift", sans-serif;
   left: 10px;
 }
+.portfolio {
+  padding: 5px 5px;
+  background-color: #aac3c5;
+  opacity: 0.9 ;
+}
+.portfolio-elements {
+  max-width: 50px;
+  margin: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 90px;
+}
+
+.card {
+  width: 1%;
+  background-color: #a6c2c3;
+  opacity: 0.95;
+}
+
+.card-header {
+  padding: 30px 40px;
+}
+.card-title {
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1e395c;
+  font-family: bahnschrift, sans;
+
+}
+.card-axe {
+  font-size: 20px;
+  color: #0c313f;
+  margin-top: 6px;
+  text-decoration: underline;
+}
+
+.card img {
+  display: block;
+  height: 500px;
+}
+
+.filters {
+  max-width: 10px;
+  margin: 0;
+}
+
+.filters ul {
+  display: flex;
+  gap: 20px;
+}
+
+.filters li {
+  padding: 80px;
+  color: #c4d6dd;
+  background-color: rgb(61, 130, 142);
+  padding: 3px 30px;
+  font-size: 60px ;
+  cursor: pointer;
+  border-color: #fff;
+  border-radius: 15px;
+}
+
+.filters li.active {
+  background-color: rgb(96, 146, 116);
+}
+
+.portfolio-elements {
+  padding: 10px ;
+}

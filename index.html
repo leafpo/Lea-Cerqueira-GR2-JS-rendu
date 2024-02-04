@@ -40,7 +40,11 @@
               <li><a href="ambulant.html">Le Chateau Ambulant</a></li>
               <li><a href="contes.html">Les Contes de Terremer</a></li>
               <li><a href="ponyo.html">Ponyo sur la Falaise</a></li>
-              <li><a href="arrietty.html">Arrietty le Petit Monde des Chapardeurs</a></li>
+              <li>
+                <a href="arrietty.html"
+                  >Arrietty le Petit Monde des Chapardeurs</a
+                >
+              </li>
               <li><a href="colline.html">La Colline aux Coquelicots</a></li>
               <li><a href="vent.html">Le Vent se Lève</a></li>
               <li><a href="kaguya.html">Le Conte de la Princesse Kaguya</a></li>
@@ -51,7 +55,6 @@
             </div>
           </li>
         </ul>
-      
       </nav>
     </div>
 
@@ -68,7 +71,6 @@
     <div class="swipper mon-slider" id="mon-slider">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-
           <h1>Ghibli</h1>
           <p>Guide</p>
           <div class="container">
@@ -76,7 +78,7 @@
               <img src="calcifer.png" alt="." class="clickable-image1" />
             </a>
           </div>
-          </div>
+        </div>
       </div>
     </div>
 
@@ -98,8 +100,70 @@
       <div class="swiper-pagination"></div>
     </div>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-    
 
+    <br />
+    <br />
+
+    <main class="portfolio">
+      <div class="filters">
+        <ul>
+          <li data-filter="all" class="active">Croquis Ghibli</li>
+          <li data-filter="cd">Le voyage de Chihiro</li>
+          <li data-filter="cm">Ponyo sur la Falaise</li>
+          <li data-filter="cdi">Le chateau Ambulant</li>
+          <li data-filter="3d">Princesse Mononoke</li>
+          <li data-filter="jv">Le chateau dans le ciel</li>
+        </ul>
+      </div>
+      <div class="portfolio-elements">
+        <div class="card filtr-item" data-category="cd">
+          <div class="card-header">
+            <p class="card-title">Chihiro dans le train</p>
+            <div class="card-axe">Le Voyage de Chihiro</div>
+          </div>
+          <a href="chihirocroquis.jpg"
+            ><img src="chihirocroquis.jpg"/>
+          </a>
+        </div>
+        <div class="card filtr-item" data-category="3d">
+          <div class="card-header">
+            <p class="card-title">Ponyo avec ses frères et soeurs</p>
+            <div class="card-axe">Ponyo sur la Falaise</div>
+          </div>
+          <a href="ponyocroquis.jpg"><img src="ponyocroquis.jpg" alt="Croquis" /> </a>
+        </div>
+        <div class="card filtr-item" data-category="jv">
+          <div class="card-header">
+            <p class="card-title">Howl sur son lit</p>
+            <div class="card-axe">Le chateau ambulant</div>
+          </div>
+          <a href="howlcroquis.jpg"
+            ><img
+              src="howlcroquis.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="card filtr-item" data-category="cdi">
+          <div class="card-header">
+            <p class="card-title">San, Moro et Ashitaka </p>
+            <div class="card-axe">Princesse Mononoke</div>
+          </div>
+          <a href="mononokecroquis.jpg"
+            ><img src="mononokecroquis.jpg" alt="" />
+          </a>
+        </div>
+        <div class="card filtr-item" data-category="cm">
+          <div class="card-header">
+            <p class="card-title">Vue éloignée de Laputa</p>
+            <div class="card-axe">Le Chateau dans le ciel</div>
+          </div>
+          <a href="laputacroquis.jpg"
+            ><img src="laputacroquis.jpg" alt="" />
+          </a>
+        </div>
+      </div>
+    </main>
     <div>
       <button id="toggleDarkMode">Activer le thème sombre</button>
     </div>
