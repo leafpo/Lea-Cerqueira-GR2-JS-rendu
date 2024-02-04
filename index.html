@@ -3,23 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Guide Ghibli</title>
   </head>
 
   <body class="page1">
-    <h1>Ghibli</h1>
-    <p>Guide</p>
-    <div class="container">
-      <a href="index.html">
-        <img
-          src="calcifer.png"
-          alt="."
-          class="clickable-image1"
-        />
-      </a>
+    <div class="menu-buttons" id="burger-menu">
+      <a href="inscription.html" class="inscription">inscription</a>
+      <div class="menu-btn" onclick="toggleMenu()">
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+      </div>
+      <nav class="navbar" id="navbar">
+        <ul>
+          <li class="active">
+            <div class="dropdown-content">
+              <li><a href="sitenausicaa.html">Nausicaa</a></li>
+              <li><a href="chateauciel.html">Le Chateau dans le Ciel</a></li>
+              <li><a href="totoro.html">Totoro</a></li>
+              <li><a href="lucioles.html">Le Tombeau des Lucioles</a></li>
+              <li><a href="kiki.html">Kiki la Petite Sorcière</a></li>
+              <li><a href="poroporo.html">Omoide Poroporo</a></li>
+              <li><a href="porco.html">Porco Rosso</a></li>
+              <li><a href="ocean.html">Je Peux Entendre l'Ocean</a></li>
+              <li><a href="pompoko.html">Pompoko</a></li>
+              <li><a href="oreille.html">Si tu Tend l'Oreille</a></li>
+              <li><a href="mononoke.html">Princesse Mononoke</a></li>
+              <li><a href="yamada.html">Mes voisins les Yamada</a></li>
+              <li><a href="chihiro.html">Le voyage de Chihiro</a></li>
+              <li><a href="chat.html">Le Royaume des Chats</a></li>
+              <li><a href="ambulant.html">Le Chateau Ambulant</a></li>
+              <li><a href="contes.html">Les Contes de Terremer</a></li>
+              <li><a href="ponyo.html">Ponyo sur la Falaise</a></li>
+              <li><a href="arrietty.html">Arrietty le Petit Monde des Chapardeurs</a></li>
+              <li><a href="colline.html">La Colline aux Coquelicots</a></li>
+              <li><a href="vent.html">Le Vent se Lève</a></li>
+              <li><a href="kaguya.html">Le Conte de la Princesse Kaguya</a></li>
+              <li><a href="marnie.html">Souvenirs de Marnie</a></li>
+              <li><a href="tortue.html">La Tortue Rouge</a></li>
+              <li><a href="aya.html">Aya et la Sorcière</a></li>
+              <li><a href="heron.html">Le Garçon et le Heron</a></li>
+            </div>
+          </li>
+        </ul>
+      
+      </nav>
     </div>
-    <div class="Lien2">
+
+    <div class="Lien2" style="z-index: 9999">
       <a href="2epageliste.html">
         <img
           src="icone2epage.png"
@@ -27,5 +63,48 @@
           class="clickable-image2"
         />
       </a>
+    </div>
+
+    <div class="swipper mon-slider" id="mon-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+
+          <h1>Ghibli</h1>
+          <p>Guide</p>
+          <div class="container">
+            <a href="index.html">
+              <img src="calcifer.png" alt="." class="clickable-image1" />
+            </a>
+          </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="swipper mon-slider" id="mon-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="Arrietty 1.jpg" alt="1" />
+        </div>
+        <div class="swiper-slide">
+          <img src="Arrietty 2.jpg" alt="2" />
+        </div>
+
+        <div class="swiper-slide">
+          <img src="Arrietty 3.jpg" alt="3" />
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    
+
+    <div>
+      <button id="toggleDarkMode">Activer le thème sombre</button>
+    </div>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="swiper.js"></script>
+    <script src="burger.js"></script>
   </body>
 </html>

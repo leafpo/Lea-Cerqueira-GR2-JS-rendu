@@ -1,7 +1,0 @@
-Bonjour,
-Veuillez trouver ci-joint le lien Github de mon rendu html/css
-
-https://github.com/leafpo/htmlcss-rendu
-
-Cordialement,
-Léa Cerqueira G2, IIM

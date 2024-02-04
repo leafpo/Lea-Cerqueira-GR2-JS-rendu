@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="inscription.css" />
+    <title>Document</title>
+  </head>
+  <body class="page1">
+    <button id="theme">remplissez le formulaire</button>
+    <div class="message-error">
+      <ul></ul>
+    </div>
+    <div class="message-success">
+      <h1>Votre formulaire a bien été envoyé</h1>
+    </div>
+    <form id="formulaire" novalidate>
+      <div>
+        <label for="nom">Nom</label>
+        <input type="text" name="nom" id="nom" />
+      </div>
+      <div>
+        <label for="pseudo">Prénom</label>
+        <input type="text" name="pseudo" id="pseudo" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div>
+        <label for="radios"
+          >Femme : <input type="radio" name="radios" id="radio1" value="radio1"
+        /></label>
+        <label for="radio1"
+          >Homme : <input type="radio" name="radios" id="radio2" value="radio2"
+        /></label>
+        <label for="radio2"
+          >Autre... :
+          <input type="radio" name="radios" id="radio3" value="radio3"
+        /></label>
+      </div>
+      <div>
+        <label for="axe">Mon Personnage Ghibli préféré:</label>
+        <select name="axe" id="axe">
+          <option value="">Choisissez...</option>
+          <option value="axe1">Chihiro</option>
+          <option value="axe5">Haku</option>
+          <option value="axe2">Nausicaä</option>
+          <option value="axe3">Ponyo</option>
+          <option value="axe4">Totoro</option>
+          <option value="axe5">Arrietty</option>
+          <option value="axe6">San</option>
+          <option value="axe7">Paku</option>
+          <option value="axe8">Sophie</option>
+          <option value="axe9">Kiki</option>
+          <option value="axe10">Jiji</option>
+        </select>
+      </div>
+
+      <button type="submit">S'inscrire</button>
+    </form>
+
+    <script src="inscription.js"></script>
+  </body>
+</html>

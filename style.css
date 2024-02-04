@@ -40,7 +40,6 @@ p {
 }
 .Lien2 img:hover {
   transform: scale(1.1);
-  
 }
 
 .clickable-image1 {
@@ -48,9 +47,89 @@ p {
 }
 
 .clickable-image2 {
-  margin: -90px;
-  height: 150px;
-  top: 400px
+  margin: -60px;
+  height: 180px;
+  top: 500px;
 }
 
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.menu-buttons {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  line-height: 8%;
+  opacity: 0.8;
+  font-family: "Bahnschrift", sans-serif;
+}
+
+.menu-btn .burger-line {
+  height: 10px;
+  width: 45px;
+  background-color: rgb(54, 53, 105);
+  margin: 6px 0;
+}
+
+.navbar {
+  display: none;
+  margin-right: 20px;
+}
+
+.navbar.show-navbar {
+  display: block;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(54, 67, 139);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  display: block;
+}
+
+.navbar a.active {
+  background-color: #041b32;
+  color: #ffffff;
+}
+
+body.dark {
+  background-color: #110c24;
+  color: #ffffff;
+  background: url("Chateaucopie.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+body.dark * {
+  filter: grayscale(50);
+}
+
+#toggleDarkMode {
+  background-color: #1c0f4db9;
+  color: #fff;
+  padding: 10px;
+  position: relative;
+  cursor: pointer;
+  margin-top: 25px;
+  bottom: 30px;
+  height: 50px;
+  font-size: 20px;
+  font-family: "bahnschrift", sans-serif;
+  left: 10px;
+}
